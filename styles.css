@@ -1,0 +1,72 @@
+  body{
+    background-image: url("Images/back.jpg");
+    position: relative;
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    align-items: center;
+  }
+
+
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    color: #fffbfb;
+  }
+  
+  
+  .board {
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-left: 490px;
+    color: #e6e200;
+  }
+  
+  .cell {
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .status {
+    font-size: 24px;
+    margin-bottom: 80px;
+  }
+  
+  .restart-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #050801;
+    color: #f9fcfc;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    
+  }
+
+  .restart-button:hover{
+    background: #f0f3f3;
+    color: #050801;
+    box-shadow: 0 0 5px #f6f7f7,
+                0 0 25px #e1eff0,
+                0 0 50px #e6e230,
+                0 0 200px #f35268;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  }
+  
+
+
+
+
+
+  
